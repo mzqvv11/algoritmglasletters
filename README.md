@@ -1,6 +1,6 @@
 # поиск гласных букв
 
-`
+```
 def count_vowels(text):
     vowels = "aeiouAEIOUаеёиоуыэюяАЕЁИОУЫЭЮЯ"
     count = 0
@@ -14,7 +14,7 @@ if __name__ == "__main__":
     user_input = input("Введите предложение: ")
     vowel_count = count_vowels(user_input)
     print("Количество гласных букв в предложении:", vowel_count)
-`
+```
 пояснение кода:
 count_vowels(text) функция:
 Принимает строку text в качестве аргумента.
@@ -32,7 +32,7 @@ print("Количество гласных букв в предложении:",
 
 # повторы
 
-`
+```
 def find_duplicates(arr):
     duplicates = []
     seen = set()
@@ -55,7 +55,7 @@ if __name__ == "__main__":
         print("Повторяющиеся элементы:", duplicate_elements)
     else:
         print("В массиве нет повторяющихся элементов.")
-`
+```
 
 пояснение:
 
