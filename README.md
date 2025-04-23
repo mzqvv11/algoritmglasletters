@@ -33,11 +33,11 @@ print("Количество гласных букв в предложении:",
 # повторы
 
 ```
-def find_duplicates(arr):
+def find_duplicates(nums):
     duplicates = []
     seen = set()
 
-    for element in arr:
+    for element in nums:
         if element in seen:
             if element not in duplicates:
                 duplicates.append(element)
@@ -48,8 +48,8 @@ def find_duplicates(arr):
 
 
 if __name__ == "__main__":
-    my_array = [1, 2, 3, 4, 2, 5, 6, 3, 7, 8, 1]
-    duplicate_elements = find_duplicates(my_array)
+    my_nums = [1, 2, 3, 4, 2, 5, 6, 3, 7, 8, 1]
+    duplicate_elements = find_duplicates(my_nums)
 
     if duplicate_elements:
         print("Повторяющиеся элементы:", duplicate_elements)
